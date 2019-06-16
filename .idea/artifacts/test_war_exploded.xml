@@ -1,0 +1,41 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="test:war exploded">
+    <output-path>$PROJECT_DIR$/test/target/test</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>test</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="test" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.nexitia.emaginplatform:emagin-jfxcore11:11.0.3" />
+          <element id="library" level="project" name="Maven: org.openjfx:javafx-base:11" />
+          <element id="library" level="project" name="Maven: org.openjfx:javafx-base:win:11" />
+          <element id="library" level="project" name="Maven: org.openjfx:javafx-controls:11" />
+          <element id="library" level="project" name="Maven: org.openjfx:javafx-controls:win:11" />
+          <element id="library" level="project" name="Maven: org.openjfx:javafx-graphics:11" />
+          <element id="library" level="project" name="Maven: org.openjfx:javafx-graphics:win:11" />
+          <element id="library" level="project" name="Maven: org.openjfx:javafx-fxml:11" />
+          <element id="library" level="project" name="Maven: org.openjfx:javafx-fxml:win:11" />
+          <element id="library" level="project" name="Maven: org.openjfx:javafx-web:11" />
+          <element id="library" level="project" name="Maven: org.openjfx:javafx-web:win:11" />
+          <element id="library" level="project" name="Maven: org.openjfx:javafx-media:11" />
+          <element id="library" level="project" name="Maven: org.openjfx:javafx-media:win:11" />
+          <element id="library" level="project" name="Maven: org.openjfx:javafx-swing:11" />
+          <element id="library" level="project" name="Maven: org.openjfx:javafx-swing:win:11" />
+          <element id="library" level="project" name="Maven: org.controlsfx:controlsfx:9.0.0" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/test/target/test/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="test/web/Web" />
+    </root>
+  </artifact>
+</component>
